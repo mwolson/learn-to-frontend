@@ -6,6 +6,7 @@ import SetupMd from '../lessons/00-computer-setup.md'
 import Lesson1Md from '../lessons/01-modify-sample-project.md'
 import Lesson2Md from '../lessons/02-create-new-project.md'
 import CurrentHomeworkMd from '../lessons/98-current-homework.md'
+import PreviousHomeworkMd from '../lessons/99-previous-homework.md'
 
 storiesOf('First Things', module)
   .add('About These Lessons', doc(AboutMd))
@@ -17,3 +18,4 @@ storiesOf('Lessons')
 
 storiesOf('Homework')
   .add('Current Homework', doc(CurrentHomeworkMd))
+  .add('Previous Homework', doc(PreviousHomeworkMd))
