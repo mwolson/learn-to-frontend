@@ -106,7 +106,7 @@ console.log(myObject.helloPhrase)
 
 Objects have keys and values. The above example has two keys (`helloText` and `otherText`) and two values (`'hello world'` and `''`, which is an empty string). When we do `myObject.helloPhrase`, the result is `'hello world'`.
 
-### HTML tags like \<div> and \<span>
+### HTML tags like &lt;div> and &lt;span>
 
 `<div>` is an HTML tag. It is usually used to render a piece of a web page. It's usually on the outside.
 
