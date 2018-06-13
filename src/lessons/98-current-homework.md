@@ -1,4 +1,4 @@
-# Homework
+# Current Homework
 
 * Read Lesson 1.
 * Read Lesson 2 and follow the instructions create a GitHub account and set up your website.
