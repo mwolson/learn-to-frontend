@@ -24,13 +24,14 @@
     "storybook": "start-storybook -p 9009 -s public"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^3.4.7",
     "@storybook/addon-links": "^3.4.7",
+    "@storybook/addon-options": "^3.4.7",
     "@storybook/addons": "^3.4.7",
     "@storybook/react": "^3.4.7",
     "@storybook/storybook-deployer": "^2.3.0",
     "babel-core": "^6.26.3",
     "babel-runtime": "^6.26.0",
-    "husky": "^1.0.0-rc.8"
+    "husky": "^1.0.0-rc.8",
+    "storybook-readme": "^3.3.0"
   }
 }

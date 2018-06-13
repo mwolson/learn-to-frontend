@@ -1,19 +1,17 @@
 import React from 'react';
-
 import { storiesOf } from '@storybook/react';
-import { action } from '@storybook/addon-actions';
-import { linkTo } from '@storybook/addon-links';
+import { doc } from 'storybook-readme';
+import SetupMd from '../lessons/00-computer-setup.md'
+import Lesson1Md from '../lessons/01-modify-sample-project.md'
+import Lesson2Md from '../lessons/02-create-new-project.md'
+import HomeworkMd from '../lessons/99-homework.md'
 
-import { Button, Welcome } from '@storybook/react/demo';
+storiesOf('Setup', module)
+  .add('Computer Setup', doc(SetupMd))
 
-storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
+storiesOf('Lessons')
+  .add('Lesson 1 - Modify a Sample Project', doc(Lesson1Md))
+  .add('Lesson 2 - Create a New React Project', doc(Lesson2Md))
 
-storiesOf('Button', module)
-  .add('with text', () => <Button onClick={action('clicked')}>Hello Button</Button>)
-  .add('with some emoji', () => (
-    <Button onClick={action('clicked')}>
-      <span role="img" aria-label="so cool">
-        😀 😎 👍 💯
-      </span>
-    </Button>
-  ));
+storiesOf('Homework')
+  .add('Current homework', doc(HomeworkMd))
